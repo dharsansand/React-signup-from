@@ -1,0 +1,56 @@
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgb(0,0,0,0.8);
+
+
+}
+.popup-inner{
+    width: 40%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1px;
+    color: #fff;
+    margin-top: 250px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.text{
+    text-align: center;
+    text-decoration: underline;
+    color:mediumblue;
+    font-size: 150%;
+
+
+}
+
+
+.close{
+    display: inline;
+    float: right;
+    padding: 0%;
+    margin: 0%;
+    border: 1px solid red;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(248,21,40,0.4);
+    transform: 0.5;}
+.close:hover{
+    background-color: rgb(248,21,40);
+    opacity: 1;
+}
+.tick{
+    color: green;
+    font-size: 50px;
+    border-radius: 50%;
+    border: 5px double darkgreen;
+
+
+}
